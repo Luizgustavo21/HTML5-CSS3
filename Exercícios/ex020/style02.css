@@ -1,0 +1,8 @@
+@charset '  UTF-8';
+div > p {
+    display: none;
+}
+div:hover > p {
+    display: block;
+    color: #00e5ff;
+}

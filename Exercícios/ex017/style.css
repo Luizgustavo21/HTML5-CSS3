@@ -1,0 +1,12 @@
+@charset 'UTF-8';
+body {
+    font-family:Arial, Helvetica, sans-serif
+}
+h1, h2 {
+    font-family: 'Times New Roman', Times, serif;
+}
+p {
+    font: italic bold 17px 'arial', sans serif; 
+}
+/*acima temos um shorhand font!
+*/

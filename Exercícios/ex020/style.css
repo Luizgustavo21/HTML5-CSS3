@@ -1,0 +1,25 @@
+@charset 'UTF-8';
+div{
+    background-color: #00e5ff;
+    border: 5px #00a5ff;
+    text-align: center;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+
+}
+div#01 {
+    background-color: azure;
+}
+
+div#02 {
+    font-weight: 800;
+}
+
+div {
+    color: black;
+}
+
+div:hover {
+    color: #00e5ff;
+}

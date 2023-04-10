@@ -1,0 +1,18 @@
+@charset 'UTF-8';
+body {
+    background-color: #def7faf3;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1#principal { /*id*/
+    text-align: center;
+    font-weight: 900;
+}
+h1 {
+    color: #00a5ff;
+}
+h2 {
+    color: #00e5ff;
+}
+.basico { /*class*/
+    color: black;
+}
