@@ -43,3 +43,20 @@ body#terciario{
     background-image: url('https://avatars.githubusercontent.com/u/8683378?v=4');
     background-size: 100px 100px;
 }
+/*Aqui abaixo o css da página fundo006*/
+body#fundo{
+    background-color: black;
+    background-image: url('imagens/wallpaper002.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+main{
+    width: 400px;
+    padding: 10px;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid black;
+}
