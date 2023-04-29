@@ -9,14 +9,15 @@
 <body>
     <form action="cadastro.php">
         <fieldset>
+            <!--Quando for radio, deve ter o mesmo nome, porém id diferentes!-->
             <legend>Sexo</legend>
             <p>
                 <label for="imas">Masculino</label>
-                <input type="radio" name="masc" id="imas">
+                <input type="radio" name="sex" id="imas">
             </p>
             <p>
                 <label for="ifem">Feminino</label>
-                <input type="radio" name="fem" id="ifem">
+                <input type="radio" name="sex" id="ifem">
             </p>
         </fieldset>
         <fieldset>
@@ -34,6 +35,8 @@
                 <input type="checkbox" name="vol" id="ivol">
             </p>
         </fieldset>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
     </form>
 </body>
 </html>
