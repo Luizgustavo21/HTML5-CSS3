@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Exemplo de formulário</h1>
+    <form action="cadastro.php">
+        <p>
+            <label for="iest">Estado</label>
+            <select name="estado" id="iest">
+                <optgroup label="Mais Populosos">
+                    <option value="SP">São Paulo</option>
+                    <option value="BA">Bahia</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="MT">Mato Grosso</option>
+                </optgroup>
+                <optgroup label="Menos Populosos">
+                    <option value="RR">Roraima</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="TO">Tocantins</option>
+                </optgroup>
+            </select>
+        </p>
+        <p>
+            <label for="iprof">Profissão</label>
+            <input type="text" name="prof" id="iprof" list="lstprof">
+            <datalist id="lstprof">
+                <optgroup label="Gerenciamento virtual">
+                    <option value="CTB">Contabilidade</option>
+                    <option value="DEV">Desenvolvedor</option>
+                    <option value="ADM">Administrador</option>
+                </optgroup>
+                <optgroup label="Gerenciamento Pessoal">
+                    <option value="PROF">Professor</option>
+                    <option value="NUTRI">Nutricionista</option>
+                </optgroup>
+
+            </datalist>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>  
+    </form>
+</body>
+</html>
