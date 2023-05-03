@@ -9,7 +9,7 @@
 <body>
     <p>
         <label for="iano">Em que ano você nasceu?</label>
-        <input type="number" name="ano" id="iano" min="1900" max="2023">
+        <input type="number" name="ano" id="iano" min="1900" max="2023" oninput="iidade.innerHTML = 2023 - Number(iano.value)">
     </p>
     <p>
         <label for="iidade">Sua idade é:</label>
